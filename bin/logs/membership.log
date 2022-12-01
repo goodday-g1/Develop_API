@@ -1,0 +1,493 @@
+[INFO ] 12:04:30.416 c.j.membership.MembershipApplication - Starting MembershipApplication using Java 17.0.5 on DESKTOP-AFDRIM5 with PID 19600 (C:\Users\jhhan\eclipse-workspace\Developers\membership\target\classes started by jhhan in C:\Users\jhhan\eclipse-workspace\Developers\membership)
+[INFO ] 12:04:30.418 c.j.membership.MembershipApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 12:04:30.466 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 12:04:30.466 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 12:04:30.968 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[INFO ] 12:04:30.979 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+[INFO ] 12:04:31.471 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8787 (http)
+[INFO ] 12:04:31.479 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8787"]
+[INFO ] 12:04:31.480 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 12:04:31.481 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 12:04:31.548 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 12:04:31.548 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1076 ms
+[INFO ] 12:04:31.990 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[WARN ] 12:04:31.995 c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO ] 12:04:32.293 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 12:04:32.422 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 12:04:32.444 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8787"]
+[INFO ] 12:04:32.472 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8787 (http) with context path ''
+[INFO ] 12:04:32.492 c.j.membership.MembershipApplication - Started MembershipApplication in 2.48 seconds (JVM running for 3.193)
+[ERROR] 12:04:32.520 o.s.boot.SpringApplication - Application run failed
+java.lang.AbstractMethodError: Receiver class com.jiwon.membership.MembershipApplication$$EnhancerBySpringCGLIB$$2f117b does not define or inherit an implementation of the resolved method 'abstract void run(java.lang.String[])' of interface org.springframework.boot.CommandLineRunner.
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.jiwon.membership.MembershipApplication.main(MembershipApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[INFO ] 12:04:32.544 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 12:04:32.564 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 12:12:03.271 c.j.membership.MembershipApplication - Starting MembershipApplication using Java 17.0.5 on DESKTOP-AFDRIM5 with PID 19872 (C:\Users\jhhan\eclipse-workspace\Developers\membership\target\classes started by jhhan in C:\Users\jhhan\eclipse-workspace\Developers\membership)
+[INFO ] 12:12:03.272 c.j.membership.MembershipApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 12:12:03.320 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 12:12:03.320 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 12:12:03.820 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[INFO ] 12:12:03.833 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+[INFO ] 12:12:04.341 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8787 (http)
+[INFO ] 12:12:04.351 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8787"]
+[INFO ] 12:12:04.352 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 12:12:04.352 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 12:12:04.416 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 12:12:04.416 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1095 ms
+[INFO ] 12:12:04.858 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[WARN ] 12:12:04.862 c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO ] 12:12:05.183 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 12:12:05.300 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 12:12:05.325 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8787"]
+[INFO ] 12:12:05.346 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8787 (http) with context path ''
+[INFO ] 12:12:05.364 c.j.membership.MembershipApplication - Started MembershipApplication in 2.479 seconds (JVM running for 3.244)
+[ERROR] 12:12:05.393 o.s.boot.SpringApplication - Application run failed
+java.lang.AbstractMethodError: Receiver class com.jiwon.membership.MembershipApplication$$EnhancerBySpringCGLIB$$30b70ea3 does not define or inherit an implementation of the resolved method 'abstract void run(java.lang.String[])' of interface org.springframework.boot.CommandLineRunner.
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.jiwon.membership.MembershipApplication.main(MembershipApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[INFO ] 12:12:05.417 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 12:12:05.427 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 12:16:54.147 c.j.membership.MembershipApplication - Starting MembershipApplication using Java 17.0.5 on DESKTOP-AFDRIM5 with PID 10484 (C:\Users\jhhan\eclipse-workspace\Developers\membership\target\classes started by jhhan in C:\Users\jhhan\eclipse-workspace\Developers\membership)
+[INFO ] 12:16:54.150 c.j.membership.MembershipApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 12:16:54.204 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 12:16:54.204 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 12:16:54.806 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[INFO ] 12:16:54.820 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+[INFO ] 12:16:55.447 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8787 (http)
+[INFO ] 12:16:55.459 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8787"]
+[INFO ] 12:16:55.460 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 12:16:55.460 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 12:16:55.524 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 12:16:55.524 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1320 ms
+[INFO ] 12:16:56.043 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[WARN ] 12:16:56.049 c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO ] 12:16:56.381 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 12:16:56.530 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 12:16:56.553 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8787"]
+[INFO ] 12:16:56.581 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8787 (http) with context path ''
+[INFO ] 12:16:56.601 c.j.membership.MembershipApplication - Started MembershipApplication in 2.926 seconds (JVM running for 3.941)
+[ERROR] 12:16:56.639 o.s.boot.SpringApplication - Application run failed
+java.lang.AbstractMethodError: Receiver class com.jiwon.membership.MembershipApplication$$EnhancerBySpringCGLIB$$6e1c6d1b does not define or inherit an implementation of the resolved method 'abstract void run(java.lang.String[])' of interface org.springframework.boot.CommandLineRunner.
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.jiwon.membership.MembershipApplication.main(MembershipApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[INFO ] 12:16:56.667 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 12:16:56.681 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 12:17:41.547 c.j.membership.MembershipApplication - Starting MembershipApplication using Java 17.0.5 on DESKTOP-AFDRIM5 with PID 16484 (C:\Users\jhhan\eclipse-workspace\Developers\membership\target\classes started by jhhan in C:\Users\jhhan\eclipse-workspace\Developers\membership)
+[INFO ] 12:17:41.548 c.j.membership.MembershipApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 12:17:41.603 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 12:17:41.603 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 12:17:42.102 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[INFO ] 12:17:42.115 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+[INFO ] 12:17:42.605 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8787 (http)
+[INFO ] 12:17:42.616 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8787"]
+[INFO ] 12:17:42.617 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 12:17:42.617 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 12:17:42.681 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 12:17:42.681 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1078 ms
+[INFO ] 12:17:43.143 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 12:17:43.467 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 12:17:43.586 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 12:17:43.604 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8787"]
+[INFO ] 12:17:43.628 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8787 (http) with context path ''
+[INFO ] 12:17:43.658 c.j.membership.MembershipApplication - Started MembershipApplication in 2.511 seconds (JVM running for 3.211)
+[ERROR] 12:17:43.688 o.s.boot.SpringApplication - Application run failed
+java.lang.AbstractMethodError: Receiver class com.jiwon.membership.MembershipApplication$$EnhancerBySpringCGLIB$$bb7127a5 does not define or inherit an implementation of the resolved method 'abstract void run(java.lang.String[])' of interface org.springframework.boot.CommandLineRunner.
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.jiwon.membership.MembershipApplication.main(MembershipApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[INFO ] 12:17:43.713 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 12:17:43.741 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 12:22:02.852 c.j.membership.MembershipApplication - Starting MembershipApplication using Java 17.0.5 on DESKTOP-AFDRIM5 with PID 23516 (C:\Users\jhhan\eclipse-workspace\Developers\membership\target\classes started by jhhan in C:\Users\jhhan\eclipse-workspace\Developers\membership)
+[INFO ] 12:22:02.853 c.j.membership.MembershipApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 12:22:02.905 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 12:22:02.905 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 12:22:03.391 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[INFO ] 12:22:03.403 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+[INFO ] 12:22:03.908 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8787 (http)
+[INFO ] 12:22:03.919 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8787"]
+[INFO ] 12:22:03.919 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 12:22:03.920 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 12:22:03.983 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 12:22:03.983 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1077 ms
+[INFO ] 12:22:04.428 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 12:22:04.766 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 12:22:04.886 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 12:22:04.903 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8787"]
+[INFO ] 12:22:04.923 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8787 (http) with context path ''
+[INFO ] 12:22:04.941 c.j.membership.MembershipApplication - Started MembershipApplication in 2.49 seconds (JVM running for 3.212)
+[ERROR] 12:22:04.970 o.s.boot.SpringApplication - Application run failed
+java.lang.AbstractMethodError: Receiver class com.jiwon.membership.MembershipApplication$$EnhancerBySpringCGLIB$$d94fa47f does not define or inherit an implementation of the resolved method 'abstract void run(java.lang.String[])' of interface org.springframework.boot.CommandLineRunner.
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.jiwon.membership.MembershipApplication.main(MembershipApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[INFO ] 12:22:04.994 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 12:22:05.008 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 12:23:07.500 c.j.membership.MembershipApplication - Starting MembershipApplication using Java 17.0.5 on DESKTOP-AFDRIM5 with PID 17704 (C:\Users\jhhan\eclipse-workspace\Developers\membership\target\classes started by jhhan in C:\Users\jhhan\eclipse-workspace\Developers\membership)
+[INFO ] 12:23:07.501 c.j.membership.MembershipApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 12:23:07.554 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 12:23:07.554 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 12:23:08.074 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[INFO ] 12:23:08.087 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+[INFO ] 12:23:08.635 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8787 (http)
+[INFO ] 12:23:08.644 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8787"]
+[INFO ] 12:23:08.645 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 12:23:08.645 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 12:23:08.711 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 12:23:08.712 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1157 ms
+[INFO ] 12:23:09.181 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 12:23:09.516 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 12:23:09.647 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 12:23:09.674 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8787"]
+[INFO ] 12:23:09.701 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8787 (http) with context path ''
+[INFO ] 12:23:09.712 c.j.membership.MembershipApplication - Started MembershipApplication in 2.661 seconds (JVM running for 3.418)
+[ERROR] 12:23:09.743 o.s.boot.SpringApplication - Application run failed
+java.lang.AbstractMethodError: Receiver class com.jiwon.membership.MembershipApplication$$EnhancerBySpringCGLIB$$74b1b1eb does not define or inherit an implementation of the resolved method 'abstract void run(java.lang.String[])' of interface org.springframework.boot.CommandLineRunner.
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.jiwon.membership.MembershipApplication.main(MembershipApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[INFO ] 12:23:09.771 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 12:23:09.792 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 12:38:04.176 c.j.membership.MembershipApplication - Starting MembershipApplication using Java 17.0.5 on DESKTOP-AFDRIM5 with PID 5388 (C:\Users\jhhan\eclipse-workspace\Developers\membership\target\classes started by jhhan in C:\Users\jhhan\eclipse-workspace\Developers\membership)
+[INFO ] 12:38:04.179 c.j.membership.MembershipApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 12:38:04.239 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 12:38:04.240 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 12:38:04.903 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[INFO ] 12:38:04.920 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+[INFO ] 12:38:05.610 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8787 (http)
+[INFO ] 12:38:05.620 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8787"]
+[INFO ] 12:38:05.621 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 12:38:05.621 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 12:38:05.702 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 12:38:05.702 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1461 ms
+[INFO ] 12:38:06.304 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 12:38:06.699 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 12:38:06.841 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 12:38:06.863 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8787"]
+[INFO ] 12:38:06.891 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8787 (http) with context path ''
+[INFO ] 12:38:06.911 c.j.membership.MembershipApplication - Started MembershipApplication in 3.275 seconds (JVM running for 4.263)
+[INFO ] 12:38:22.533 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 12:38:22.534 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 12:38:22.535 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[ERROR] 12:38:34.630 o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [SELECT USER_ID, MBS_BARCODE FROM member_info]; nested exception is java.sql.SQLSyntaxErrorException: Table 'membership.member_info' doesn't exist] with root cause
+java.sql.SQLSyntaxErrorException: Table 'membership.member_info' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:972)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:722)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:651)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:713)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:738)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:794)
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:209)
+	at com.jiwon.membership.repository.MembershipRepo.findList(MembershipRepo.java:30)
+	at com.jiwon.membership.repository.MembershipRepo$$FastClassBySpringCGLIB$$b90bfab8.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.jiwon.membership.repository.MembershipRepo$$EnhancerBySpringCGLIB$$125a1366.findList(<generated>)
+	at com.jiwon.membership.service.AService.getMemberList(AService.java:32)
+	at com.jiwon.membership.controller.AController.memberList(AController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 14:19:36.571 o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+[INFO ] 14:19:36.585 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:19:36.585 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 14:19:36.586 o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 14:19:36.588 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:19:36.590 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:19:36.593 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 14:19:36.614 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 14:19:36.689 c.j.membership.MembershipApplication - Starting MembershipApplication using Java 17.0.5 on DESKTOP-AFDRIM5 with PID 5388 (C:\Users\jhhan\eclipse-workspace\Developers\membership\target\classes started by jhhan in C:\Users\jhhan\eclipse-workspace\Developers\membership)
+[INFO ] 14:19:36.689 c.j.membership.MembershipApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 14:19:36.857 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[INFO ] 14:19:36.860 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+[INFO ] 14:19:36.954 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8787 (http)
+[INFO ] 14:19:36.955 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:19:36.955 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:19:36.955 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 14:19:36.973 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:19:36.973 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 282 ms
+[INFO ] 14:19:37.155 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 14:19:37.187 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 14:19:37.219 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:19:37.233 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:19:37.237 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8787 (http) with context path ''
+[INFO ] 14:19:37.242 c.j.membership.MembershipApplication - Started MembershipApplication in 0.592 seconds (JVM running for 6094.594)
+[INFO ] 14:19:37.245 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 14:19:39.372 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 14:19:39.402 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:19:39.402 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 14:19:39.405 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:19:39.406 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:19:39.408 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 14:19:39.427 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 14:22:06.024 c.j.membership.MembershipApplication - Starting MembershipApplication using Java 17.0.5 on DESKTOP-AFDRIM5 with PID 984 (C:\Users\jhhan\eclipse-workspace\Developers\membership\target\classes started by jhhan in C:\Users\jhhan\eclipse-workspace\Developers\membership)
+[INFO ] 14:22:06.026 c.j.membership.MembershipApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 14:22:06.084 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 14:22:06.085 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 14:22:06.723 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[INFO ] 14:22:06.739 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+[INFO ] 14:22:07.327 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8787 (http)
+[INFO ] 14:22:07.337 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:22:07.338 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:22:07.338 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 14:22:07.411 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:22:07.411 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1325 ms
+[INFO ] 14:22:08.010 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 14:22:08.461 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 14:22:08.663 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:22:08.690 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:22:08.726 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8787 (http) with context path ''
+[INFO ] 14:22:08.742 c.j.membership.MembershipApplication - Started MembershipApplication in 3.236 seconds (JVM running for 4.189)
+[INFO ] 14:22:14.099 o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[INFO ] 14:22:14.115 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:22:14.115 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 14:22:14.119 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:22:14.121 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:22:14.126 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 14:22:14.147 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 14:22:14.226 c.j.membership.MembershipApplication - Starting MembershipApplication using Java 17.0.5 on DESKTOP-AFDRIM5 with PID 984 (C:\Users\jhhan\eclipse-workspace\Developers\membership\target\classes started by jhhan in C:\Users\jhhan\eclipse-workspace\Developers\membership)
+[INFO ] 14:22:14.226 c.j.membership.MembershipApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 14:22:21.136 c.j.membership.MembershipApplication - Starting MembershipApplication using Java 17.0.5 on DESKTOP-AFDRIM5 with PID 23556 (C:\Users\jhhan\eclipse-workspace\Developers\membership\target\classes started by jhhan in C:\Users\jhhan\eclipse-workspace\Developers\membership)
+[INFO ] 14:22:21.139 c.j.membership.MembershipApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 14:22:21.204 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 14:22:21.204 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 14:22:21.829 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[INFO ] 14:22:21.844 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+[INFO ] 14:22:22.509 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8787 (http)
+[INFO ] 14:22:22.520 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:22:22.521 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:22:22.522 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 14:22:22.602 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:22:22.603 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1398 ms
+[INFO ] 14:22:23.262 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 14:22:23.724 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 14:22:23.922 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:22:23.957 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:22:23.989 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8787 (http) with context path ''
+[INFO ] 14:22:24.006 c.j.membership.MembershipApplication - Started MembershipApplication in 3.391 seconds (JVM running for 4.35)
+[INFO ] 14:22:33.822 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 14:22:33.823 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 14:22:33.825 o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[ERROR] 14:22:33.982 o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [SELECT user_id, mbs_barcode FROM membership.member_info]; nested exception is java.sql.SQLSyntaxErrorException: Table 'membership.member_info' doesn't exist] with root cause
+java.sql.SQLSyntaxErrorException: Table 'membership.member_info' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:972)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:722)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:651)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:713)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:738)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:794)
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:209)
+	at com.jiwon.membership.repository.MembershipRepo.findList(MembershipRepo.java:30)
+	at com.jiwon.membership.repository.MembershipRepo$$FastClassBySpringCGLIB$$b90bfab8.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.jiwon.membership.repository.MembershipRepo$$EnhancerBySpringCGLIB$$56feb28d.findList(<generated>)
+	at com.jiwon.membership.service.AService.getMemberList(AService.java:32)
+	at com.jiwon.membership.controller.AController.memberList(AController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 14:36:25.521 o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[INFO ] 14:36:25.538 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:36:25.538 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 14:36:25.539 o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 14:36:25.542 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:36:25.544 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:36:25.549 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 14:36:25.570 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 14:36:29.907 c.j.membership.MembershipApplication - Starting MembershipApplication using Java 17.0.5 on DESKTOP-AFDRIM5 with PID 1484 (C:\Users\jhhan\eclipse-workspace\Developers\membership\target\classes started by jhhan in C:\Users\jhhan\eclipse-workspace\Developers\membership)
+[INFO ] 14:36:29.908 c.j.membership.MembershipApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 14:36:29.968 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 14:36:29.969 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 14:36:30.590 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[INFO ] 14:36:30.605 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+[INFO ] 14:36:31.220 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8787 (http)
+[INFO ] 14:36:31.232 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:36:31.232 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:36:31.233 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 14:36:31.331 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:36:31.332 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1363 ms
+[INFO ] 14:36:31.932 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 14:36:32.326 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 14:36:32.485 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:36:32.511 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:36:32.570 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8787 (http) with context path ''
+[INFO ] 14:36:32.600 c.j.membership.MembershipApplication - Started MembershipApplication in 3.203 seconds (JVM running for 4.072)
+[INFO ] 14:36:52.701 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 14:36:52.701 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 14:36:52.702 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 14:55:37.157 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 14:55:37.173 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:55:37.173 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 14:55:37.175 o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 14:55:37.178 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:55:37.179 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8787"]
+[INFO ] 14:55:37.183 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 14:55:37.205 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
